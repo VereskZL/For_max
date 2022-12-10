@@ -13,7 +13,7 @@
               </div>
               <div class="card-body">
                 <form method="post" action="">
-                  {% csrf_token %}   
+                  {% csrf_token %}
                   <div class="form-group row my-3">
                     <label for="id_username">
                       Имя пользователя
@@ -29,7 +29,7 @@
                     <input type="password" name="password" class="form-control" required id="id_password">
                   </div>
                   <div class="col-md-6 offset-md-4">
-                    <button type="submit" class="btn btn-primary"  > 
+                    <button type="submit" class="btn btn-primary"  >
                       Войти
                     </button>
                     <a href="{% url 'users:main' %} l" class="btn btn-link">
