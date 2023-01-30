@@ -1,0 +1,12 @@
+*.db
+*.pyc
+db.sqlite3
+.venv
+venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
